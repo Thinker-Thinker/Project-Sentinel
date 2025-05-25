@@ -1,0 +1,70 @@
+# Python
+# Byte-compiled / optimized / dll files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Distribution / packaging
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.whl
+sdist/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# IDE specific files
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Logs
+*.log
+
+# Project-specific generated outputs & temporary files
+# Temporary directories created during video processing (frames, etc.)
+temp_frames_extracted/
+temp_processed_frames/
+
+# Generated video outputs
+watermarked_sample.mp4
+reconstructed_sample.mp4
+watermarked_videos/ # If you create a dedicated output folder later
+
+# User uploads (if you add a Flask upload functionality)
+uploads/
+
+# Generated PDW pattern images
+pdw_pattern_a.png
+pdw_pattern_b.png
+
+# Database files (if using SQLite for simple prototypes)
+*.db
+*.sqlite
+*.sqlite3
+instance/ # Flask's default instance folder
